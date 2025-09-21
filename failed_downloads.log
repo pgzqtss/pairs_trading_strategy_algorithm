@@ -1,0 +1,303 @@
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 09:35:16.854087 -> 2025-09-13 09:35:16.854087)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 11:01:21.099637 -> 2025-09-13 11:01:21.099637)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 11:07:59.771838 -> 2025-09-13 11:07:59.771838)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 11:34:19.123053 -> 2025-09-13 11:34:19.123053)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 12:25:04.530564 -> 2025-09-13 12:25:04.530564)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 12:29:08.679187 -> 2025-09-13 12:29:08.679187)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-13 14:42:14.211705 -> 2025-09-13 14:42:14.211705)')
+ERROR:yfinance:
+145 Failed downloads:
+ERROR:yfinance:['AMT', 'BLK', 'ITW', 'WELL', 'STX']: Timeout('Failed to perform, curl: (28) Connection timed out after 10006 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['UNP', 'MRK', 'CTVA', 'EXC', 'TAP']: Timeout('Failed to perform, curl: (28) Connection timed out after 10007 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['VRSK']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['QCOM', 'MSI', 'LDOS', 'BDX', 'CFG', 'MA', 'PNC', 'HD', 'HAL', 'HBAN', 'COF']: Timeout('Failed to perform, curl: (28) Connection timed out after 10003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['OKE', 'BKNG', 'MAA', 'AXON', 'JNJ', 'SPG', 'COO', 'AWK', 'SLB', 'TMUS']: Timeout('Failed to perform, curl: (28) Connection timed out after 10008 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TTWO', 'CHRW', 'XEL', 'SNA', 'GLW', 'BMY']: Timeout('Failed to perform, curl: (28) Connection timed out after 10011 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CMCSA', 'IBM', 'NUE', 'FRT']: Timeout('Failed to perform, curl: (28) Connection timed out after 10010 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['GILD']: Timeout('Failed to perform, curl: (28) Operation timed out after 10000 milliseconds with 15595 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MCHP', 'ESS', 'OMC', 'SBAC', 'WAT']: Timeout('Failed to perform, curl: (28) Connection timed out after 10013 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ISRG', 'TYL', 'MMC', 'GEN', 'BKR']: Timeout('Failed to perform, curl: (28) Connection timed out after 10015 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['HPE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 10395 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MSFT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 15604 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CMI', 'BRO']: Timeout('Failed to perform, curl: (28) Connection timed out after 10000 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EOG', 'CMS', 'IP', 'CARR']: Timeout('Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['IT', 'PSKY', 'TT', 'ETN', 'CSGP', 'LKQ', 'BF.B', 'JBHT']: Timeout('Failed to perform, curl: (28) Connection timed out after 10014 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ORLY', 'MOH', 'FOX', 'IEX', 'WBD']: Timeout('Failed to perform, curl: (28) Connection timed out after 10005 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['HIG', 'DPZ', 'CRM', 'AFL', 'AAPL', 'PG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10009 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ROP', 'AIG', 'GPC', 'MU', 'HSY', 'PFG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['LYB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AMCR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['REG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NTAP', 'EXPE', 'NCLH', 'ORCL', 'FTNT']: Timeout('Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NTRS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 12995 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NI', 'NDAQ']: Timeout('Failed to perform, curl: (28) Connection timed out after 10016 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NEE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 6504 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['KEYS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10016 milliseconds with 7578 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['SRE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CHTR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10006 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WDC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['XOM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CL', 'LVS', 'TSCO']: Timeout('Failed to perform, curl: (28) Connection timed out after 10004 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MCD']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 8879 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TDY']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CLX', 'VZ']: Timeout('Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['XYL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 7578 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['HSIC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10016 milliseconds with 9095 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CAH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['URI']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 2231 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MO']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 2601 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: ConnectionError('Failed to perform, curl: (56) Connection closed abruptly. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['DUK', 'EG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 10 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['POOL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10000 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['IRM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 12769 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ES']: Timeout('Failed to perform, curl: (28) Operation timed out after 10007 milliseconds with 9095 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PSA']: Timeout('Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NWSA']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 12995 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ED', 'ECL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 4978 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ALB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10009 milliseconds with 7578 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ATO']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CAG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CPT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BIIB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10000 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NWS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 12995 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PYPL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 3679 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['INTU']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['KR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ALLE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WEC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TRMB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 2601 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MET']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 9095 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BAX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['OXY']: Timeout('Failed to perform, curl: (28) Connection timed out after 10017 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PSX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10006 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MCK']: Timeout('Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 5195 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EPAM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 2601 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PCG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 11638 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+178 Failed downloads:
+ERROR:yfinance:['DLTR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10007 milliseconds with 8878 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['FIS', 'MLM', 'GE', 'NEE', 'VRSN', 'IT', 'AXP', 'STLD', 'RF', 'HAS', 'LEN', 'PPG', 'ECL', 'DIS']: Timeout('Failed to perform, curl: (28) Connection timed out after 10008 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AAPL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10009 milliseconds with 4978 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['OTIS', 'J']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 10 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['GILD', 'NVDA', 'GIS', 'NDSN', 'SWK', 'MOH', 'ATO', 'PLD']: Timeout('Failed to perform, curl: (28) Connection timed out after 10007 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CDW']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MSFT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10009 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AMCR', 'MRK', 'CF', 'WM', 'CL']: Timeout('Failed to perform, curl: (28) Connection timed out after 10003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BAC', 'PSA', 'O', 'ODFL', 'TFC', 'OXY', 'GEHC']: Timeout('Failed to perform, curl: (28) Connection timed out after 10016 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MNST', 'PFE', 'STZ', 'NRG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10009 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['SYY']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AMT', 'MTB', 'CHTR', 'MCHP', 'GLW', 'REG', 'BR', 'RCL', 'PRU', 'FTNT']: Timeout('Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MPC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10006 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['APH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 4978 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ANET', 'SWKS', 'NWSA', 'NOW', 'BA', 'RJF', 'MO', 'TTWO']: Timeout('Failed to perform, curl: (28) Connection timed out after 10004 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TXT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10016 milliseconds with 1301 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NTRS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 10 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['K']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 1301 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BLK', 'PAYC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 15595 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['SBUX', 'CARR', 'IBM', 'BALL', 'BBY', 'KMI', 'SPG', 'MET', 'JKHY']: Timeout('Failed to perform, curl: (28) Connection timed out after 10013 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MCK']: Timeout('Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 10404 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['KIM', 'BEN', 'EQT', 'CHRW', 'POOL', 'BKNG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['SPGI', 'AMZN', 'APTV', 'LOW', 'ON']: Timeout('Failed to perform, curl: (28) Connection timed out after 10011 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NI', 'BAX', 'FCX', 'DAL', 'CCL', 'FDS', 'LYB', 'PGR', 'PHM']: Timeout('Failed to perform, curl: (28) Connection timed out after 10005 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CTSH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10007 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['FITB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MHK']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 4988 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EMR', 'AMGN', 'PEG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10006 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ISRG', 'WST', 'AOS', 'EFX', 'CSX', 'RSG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10010 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['DE', 'MMM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 12995 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ZBRA']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 7579 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MCD']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 2601 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TMO', 'PNW', 'MS', 'DLR', 'GEN', 'CI', 'MTD', 'IQV']: Timeout('Failed to perform, curl: (28) Connection timed out after 10015 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MPWR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['APA']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WMT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 940 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WTW']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MMC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 9104 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10017 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['IEX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10016 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AON']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 15378 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['INVH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10006 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['TRV']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 9104 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CAH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['SO', 'ETR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['LKQ']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['MDLZ']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AMAT', 'L']: Timeout('Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['DHR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 15604 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EQIX', 'HII', 'BF.B', 'ROP', 'ACGL']: Timeout('Failed to perform, curl: (28) Connection timed out after 10014 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ALLE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['RTX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10009 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WELL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 6278 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['COF']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 1301 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['NWS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 10395 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['VLO']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 8873 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AEE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 14304 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['PCG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 14295 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['FRT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 11478 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CPB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 9095 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['RL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 2240 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ITW']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['HCA']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 11704 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BIIB']: Timeout('Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 2604 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['WBD']: Timeout('Failed to perform, curl: (28) Operation timed out after 10007 milliseconds with 10395 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRO']: Timeout('Failed to perform, curl: (28) Operation timed out after 10004 milliseconds with 1301 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['STE']: Timeout('Failed to perform, curl: (28) Operation timed out after 10015 milliseconds with 6495 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CSCO']: Timeout('Failed to perform, curl: (28) Connection timed out after 10017 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['COR']: Timeout('Failed to perform, curl: (28) Operation timed out after 10010 milliseconds with 3678 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['AJG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10013 milliseconds with 1301 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['ENPH']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 10 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['VRTX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10014 milliseconds with 4979 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['IP']: Timeout('Failed to perform, curl: (28) Operation timed out after 10006 milliseconds with 4978 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['KMX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 10404 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['LMT']: Timeout('Failed to perform, curl: (28) Operation timed out after 10007 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EG']: Timeout('Failed to perform, curl: (28) Operation timed out after 10012 milliseconds with 12995 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['EXPD']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 10404 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['LDOS']: Timeout('Failed to perform, curl: (28) Operation timed out after 10005 milliseconds with 4973 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['QCOM']: Timeout('Failed to perform, curl: (28) Operation timed out after 10011 milliseconds with 7804 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['GNRC']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 11695 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:01:58.932517 -> 2025-09-18 08:01:58.932517)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:08:30.803267 -> 2025-09-18 08:08:30.803267)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:13:24.091958 -> 2025-09-18 08:13:24.091958)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:15:01.283325 -> 2025-09-18 08:15:01.283325)')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:16:34.877344 -> 2025-09-18 08:16:34.877344)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['AXON']: Timeout('Failed to perform, curl: (28) Operation timed out after 10000 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:17:25.591068 -> 2025-09-18 08:17:25.591068)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:17:53.687968 -> 2025-09-18 08:17:53.687968)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:19:14.260784 -> 2025-09-18 08:19:14.260784)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:23:40.272084 -> 2025-09-18 08:23:40.272084)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:30:50.893237 -> 2025-09-18 08:30:50.893237)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:34:22.415099 -> 2025-09-18 08:34:22.415099)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:38:46.701160 -> 2025-09-18 08:38:46.701160)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 08:40:46.567808 -> 2025-09-18 08:40:46.567808)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:21:51.710486 -> 2025-09-18 09:21:51.710486)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:24:48.852592 -> 2025-09-18 09:24:48.852592)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['PAYC']: Timeout('Failed to perform, curl: (28) Connection timed out after 10011 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:27:21.959827 -> 2025-09-18 09:27:21.959827)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:28:46.968204 -> 2025-09-18 09:28:46.968204)')
+ERROR:yfinance:
+4 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:40:39.504873 -> 2025-09-18 09:40:39.504873)')
+ERROR:yfinance:['AXON']: Timeout('Failed to perform, curl: (28) Connection timed out after 10005 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['NVR']: Timeout('Failed to perform, curl: (28) Connection timed out after 10012 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+5 Failed downloads:
+ERROR:yfinance:['CHRW']: Timeout('Failed to perform, curl: (28) Connection timed out after 10004 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['CMI']: Timeout('Failed to perform, curl: (28) Connection timed out after 10009 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:42:43.816724 -> 2025-09-18 09:42:43.816724)')
+ERROR:yfinance:['GIS']: Timeout('Failed to perform, curl: (28) Connection timed out after 10001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 09:51:38.533942 -> 2025-09-18 09:51:38.533942)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:00:22.526821 -> 2025-09-18 10:00:22.526821)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['PAYX']: Timeout('Failed to perform, curl: (28) Operation timed out after 10008 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:02:24.068770 -> 2025-09-18 10:02:24.068770)')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['HON']: Timeout('Failed to perform, curl: (28) Connection timed out after 10005 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:08:00.243387 -> 2025-09-18 10:08:00.243387)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:11:33.871245 -> 2025-09-18 10:11:33.871245)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['EOG']: Timeout('Failed to perform, curl: (28) Connection timed out after 10013 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:14:32.238363 -> 2025-09-18 10:14:32.238363)')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:35:29.881591 -> 2025-09-18 10:35:29.881591)')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:
+2 Failed downloads:
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:40:03.915346 -> 2025-09-18 10:40:03.915346)')
+ERROR:yfinance:
+3 Failed downloads:
+ERROR:yfinance:['BF.B']: YFPricesMissingError('possibly delisted; no price data found  (1d 2023-07-18 10:48:59.761812 -> 2025-09-18 10:48:59.761812)')
+ERROR:yfinance:['TAP']: Timeout('Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+ERROR:yfinance:['BRK.B']: YFTzMissingError('possibly delisted; no timezone found')
