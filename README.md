@@ -1,46 +1,48 @@
 # Pairs Trading Strategy Algorithm
 
-Pairs trading is a **market-neutral strategy** that involves taking a long position in one stock and a short position in another, based on their historical correlation.  
+Pairs trading is a market-neutral strategy that involves taking a long position in one stock and a short position in another, based on their historical correlation.  
 This project provides tools to identify stock pairs, generate trading signals, and visualize results.
 
 ---
+## Pipeline
+  - **config.py** prepares the data:
+    - Fetches S&P 500 stock data from Wikipedia.
+    - Downloads historical stock prices from Yahoo Finance.
+    - Identifies correlated stock pairs.
+  - **financial_analysis.py** runs the algorithm:
+    - **Defining parameters and attributes:**
+      - `pair`: Tuple of two stock tickers.
+      - `df_whole`: DataFrame containing price history of all stocks.
+      - `window`: Rolling window size for calculating moving averages and standard deviations.
+      - `zscore_threshold`: Threshold for z-score to trigger trades.
+      - `neutral_threshold`: Defines the z-score range where no trades are made (neutral zone).
+      - `margin_init`: Initial margin balance.
+      - `margin_ratio`: Leverage ratio.
+      - `df_pair`: Extracts price data for the selected two stocks.
+      - `df_signal_summary`: Stores trade summaries.
+      - `df_margin`: Stores margin tracking.
+    - **Z-score Calculation**
+        - `z-score = (ratio - moving average) / moving standard deviation`, where
+        - `ratio = log(price_stock1 / price_stock2)`
+          - Logarithm ensures symmetry and stability.
+    - **Signal Generation**
+        - Case 1: Overpriced
+          - z-score > threshold -> Stock1 overpriced -> Short stock1, long stock2 -> signal = -1
+        - Case 2: Underpriced
+          - z-score < -threshold -> Stock1 underpriced -> Long stock1, short stock2 -> signal = +1
+        - Case 3: Neutral zone
+          - |z| < neutral_threshold -> no position -> signal = 0
+        - If there's no new condition is triggered, keep the previous signal
+    - **Margin Calculation**
+      - Groups trades by signal changes
+      - Calculates the number of shares to trade based on available buying power.
+      - Accounts for commissions and fees.
+      - Updates the margin balance after each trade.
+    - **Trading Summary**
+      - Executes the entire trading process and returns a dictionary summarizing the trading parameters and final margin.
+  - **visualizer.py** provides a GUI for visualizing and analysing stock pairs using the dictionary returned from 'financial_analysis.py'.
 
-## Features
-- **Data Pipeline**  
-  - Fetches S&P 500 stock data from Wikipedia.  
-  - Filters by date added to the index.  
-  - Downloads historical price data via Yahoo Finance.  
 
-- **Correlation Analysis**  
-  - Identifies highly correlated stock pairs using **Pearson correlation coefficients**.  
-
-- **Pair Trading Analysis**  
-  - Computes **z-scores** of price spreads.  
-  - Generates long/short trading signals.  
-  - Calculates **profit and loss (PnL)** for chosen pairs.  
-
-- **Visualization**  
-  - Interactive **Tkinter + Plotly GUI**.  
-  - Visualizes stock prices, signals, and trading performance.  
-
----
-
-## Project Structure
-pairs_trading_strategy_algorithm/
-
-├── config.py # Data pipeline for fetching and processing S&P 500 data
-
-├── financial_analysis.py # Core logic for pairs trading analysis
-
-├── visualizer.py # GUI for visualizing pairs and results
-
-├── draft/ # Draft files for experimentation
-
-├── requirements.txt # Python dependencies
-
-├── README.md # Project documentation
-
-└── LICENSE # Apache License 2.0
 
 
 ---
@@ -86,7 +88,7 @@ pairs_trading_strategy_algorithm/
   - Green star: Indicates a long position on AXP (buy AXP, short WAB)
   - Red dot: Indicates a short position on AXP (sell AXP, long WAB)
 
-  These signals are plotted directly on the price chart. At the end of the trading period, the algorithm calculates the final margin based on the executed trades, allowing us to evaluate the PnL (Profit and Loss) of this paris trade.
+  These signals are plotted directly on the price chart. At the end of the trading period, the algorithm calculates the final margin based on the executed trades, allowing us to evaluate the PnL (Profit and Loss) of this pairs trade.
 
 
 
