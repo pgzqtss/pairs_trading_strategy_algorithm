@@ -67,6 +67,28 @@ pairs_trading_strategy_algorithm/
 - Click "Run Analysis" to compute trading signals and visualize results.
 - The analysis includes z-score calculations, signal generation, and margin updates.
 
+## Example
+1. Select AXP & WAB from the dropdown menu and set the parameters (given a default)
+   
+   <img width="416" height="290" alt="image" src="https://github.com/user-attachments/assets/6c56837a-3370-42a3-ba3e-ccb5f9640c0c" />
+3. Click Run Analysis to generate signals.
+4. Result graph is displayed as below:
+   
+   <img width="1248" height="709" alt="image" src="https://github.com/user-attachments/assets/8060c17a-403c-4cac-b70c-ca10f9b26fb7" />
+
+  The graph displays the price movements of two stocks:
+
+  - Blue line: AXP (American Express)
+  - Red line: WAB (Westinghouse Air Brake Technologies)
+    
+  Based on the selected parameters (e.g. window size, z-score threshold, margin), the algorithm       generates trading signals:
+
+  - Green star: Indicates a long position on AXP (buy AXP, short WAB)
+  - Red dot: Indicates a short position on AXP (sell AXP, long WAB)
+
+  These signals are plotted directly on the price chart. At the end of the trading period, the algorithm calculates the final margin based on the executed trades, allowing us to evaluate the PnL (Profit and Loss) of this paris trade.
+
+
 
 ## Dependencies
 Python 3.8+
