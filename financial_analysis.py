@@ -105,11 +105,15 @@ class PairTradingFinancialAnalysis:
         self.generate_signals()
         self.summarize_signals()
         self.calculate_margin()
+        
+        total_pnl = self.df_margin["margin"].iloc[-1] - self.margin_init
+        
         return {
             "pair": (self.stock1, self.stock2),
             "window": self.window,
             "zscore_threshold": self.zscore_threshold,
             "final_margin": self.margin,
+            "total_pnl": total_pnl,
             "df_signal_summary": self.df_signal_summary
         }
 

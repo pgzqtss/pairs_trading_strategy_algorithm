@@ -4,6 +4,7 @@ import plotly.graph_objs as go
 from plotly.offline import plot
 import webbrowser
 import tempfile
+import csv
 
 from config import SP500Data
 from financial_analysis import PairTradingFinancialAnalysis
@@ -104,7 +105,8 @@ class StockPairVisualizer:
             f"Neutral Threshold: {result['neutral_threshold']}<br>"
             f"Initial Margin: {result['margin_init']:.2f}<br>"
             f"Margin Ratio: {result['margin_ratio']:.2f}<br>"
-            f"<b>Final Margin: {result['final_margin']:.2f}</b>"
+            f"<b>Final Margin: {result['final_margin']:.2f}</b><br>"
+            f"<b>Total PnL: {result['total_pnl']:.2f}</b>"
         )
 
         # Add annotation near the last point of stock1
@@ -176,6 +178,36 @@ class StockPairVisualizer:
         result["neutral_threshold"] = neutral_threshold
         result["margin_init"] = margin_init
         result["margin_ratio"] = margin_ratio
+        
+        with open("trading_results.csv", mode="a", newline="") as file:
+            writer = csv.writer(file)
+
+            writer.writerow(["NEW PAIR:"])
+            
+            # Write pair and parameters
+            writer.writerow([f"Pair: {stock1} & {stock2}"])
+            writer.writerow(["Window", window])
+            writer.writerow(["Z-Score Threshold", zscore_threshold])
+            writer.writerow(["Neutral Threshold", neutral_threshold])
+            writer.writerow(["Initial Margin", margin_init])
+            writer.writerow(["Margin Ratio", margin_ratio])
+            writer.writerow(["Final Margin", result["final_margin"]])
+            writer.writerow(["Total PnL", result["total_pnl"]])
+            writer.writerow([])  # Blank line
+
+            # Write trading signals
+            writer.writerow(["Trading Signals:"])
+            for _, row in result["df_signal_summary"].iterrows():
+                if row["signal"] == 1:
+                    writer.writerow([f"Time: {row['time_start']} - Long {stock1}, Short {stock2}"])
+                elif row["signal"] == -1:
+                    writer.writerow([f"Time: {row['time_start']} - Short {stock1}, Long {stock2}"])
+                elif row["signal"] == 0:
+                    writer.writerow([f"Time: {row['time_start']} - Neutral (No position)"])
+
+            writer.writerow([])
+            writer.writerow([])
+            writer.writerow([])
 
         # Plot the selected pair with results
         self.plot_selected_pair(result)
